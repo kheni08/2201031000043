@@ -1,0 +1,112 @@
+.bus-route {
+  height: 62px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.select-route-button-child {
+  align-self: stretch;
+  width: 366px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  z-index: 1;
+}
+.select-route {
+  width: 243px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inknut-antiqua);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  height: 60px;
+  position: relative;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.empty-space {
+  height: 124px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+  transform: rotate(88.46deg);
+  z-index: 1;
+}
+.available-routes-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  margin-left: -1px;
+}
+.select-route-button {
+  align-self: stretch;
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl);
+  font-size: var(--font-size-17xl);
+}
+.bus-routes-container,
+.first-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bus-routes-container {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-11xs);
+}
+.first-frame {
+  width: 406px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.last-frame-child {
+  height: 733px;
+  width: 430px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.selected-route {
+  height: 52px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.last-frame,
+.routes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--font-inknut-antiqua);
+}
+.last-frame {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  flex-direction: row;
+  padding: 0 144px 681px 120px;
+  font-size: var(--font-size-xl);
+}
+.routes {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 45px 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-5xl);
+}

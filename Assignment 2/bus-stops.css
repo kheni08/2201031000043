@@ -1,0 +1,91 @@
+.frame-with-text-and-bus-stops-child {
+  align-self: stretch;
+  width: 430px;
+  position: relative;
+  background-color: var(--color-indianred);
+  display: none;
+}
+.bus-stops1,
+.google-maps-icon {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.google-maps-icon {
+  margin: 0;
+  height: 71px;
+  width: 53px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  transform: rotate(-178.65deg);
+}
+.bus-stops1 {
+  height: 62px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  mix-blend-mode: normal;
+}
+.frame-with-text-and-bus-stops {
+  align-self: stretch;
+  background-color: var(--color-indianred);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+  gap: 88px;
+}
+.google-map {
+  align-self: stretch;
+  height: 62px;
+  position: relative;
+  display: inline-block;
+}
+.inner-frame-with-bus-stop-labe {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.download-2-1 {
+  height: 57px;
+  width: 57px;
+  position: relative;
+  object-fit: cover;
+}
+.bus-stops,
+.download-button,
+.nested-frame-with-map {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nested-frame-with-map {
+  flex: 1;
+}
+.bus-stops,
+.download-button {
+  width: 245px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
+.bus-stops {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 105px 0 0;
+  gap: 694px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-inknut-antiqua);
+}

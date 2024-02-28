@@ -1,0 +1,108 @@
+.frame-parent-child {
+  height: 66px;
+  width: 391px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-indianred);
+  display: none;
+  mix-blend-mode: normal;
+}
+.settings1 {
+  height: 62px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-parent1 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-indianred);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 39px 4px 23px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inknut-antiqua);
+}
+.notification,
+.share-app-with {
+  height: 62px;
+  position: relative;
+  display: inline-block;
+}
+.notification {
+  width: 187px;
+  white-space: pre-wrap;
+}
+.share-app-with {
+  flex: 1;
+}
+.multi-frame-row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+}
+.rate-us {
+  height: 62px;
+  position: relative;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.multi-frame-row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.terms-and-condition {
+  height: 62px;
+  position: relative;
+  display: inline-block;
+}
+.multi-frame-row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.share-frame {
+  width: 309px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.settings,
+.share-frame,
+.terms-conditions-frame {
+  display: flex;
+  justify-content: flex-start;
+}
+.terms-conditions-frame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inknut-antiqua);
+}
+.settings {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 99px 17px 435px var(--padding-3xl);
+  box-sizing: border-box;
+  gap: 84px;
+}

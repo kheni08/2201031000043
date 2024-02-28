@@ -1,0 +1,166 @@
+.f-r-a-m-e-c-child {
+  width: 378px;
+  height: 252px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.about-us {
+  height: 39px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.about-us-text {
+  width: 139px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+}
+.amdavad-municipal-transport,
+.amts-is-indias {
+  margin: 0;
+}
+.amts-is-indias-container {
+  align-self: stretch;
+  height: 156px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.f-r-a-m-e-c,
+.frame-b {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.f-r-a-m-e-c {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  flex-direction: column;
+  padding: 0 var(--padding-8xs) 43px var(--padding-smi);
+  gap: var(--gap-sm);
+}
+.frame-b {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-8xs);
+}
+.contact-frame-child {
+  width: 378px;
+  height: 212px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.contact-us {
+  height: 39px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-d {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.toll-free-no {
+  height: 39px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.for-any-complaint,
+.please-call-on,
+.route-operation {
+  margin: 0;
+}
+.for-any-complaint-container {
+  height: 117px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-f {
+  align-items: flex-start;
+  gap: 1px;
+}
+.contact-frame,
+.frame-a,
+.frame-f {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.contact-frame {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  align-items: center;
+  padding: 0 var(--padding-lgi) var(--padding-6xs) 18px;
+  gap: 9px;
+}
+.frame-a {
+  align-items: flex-start;
+  gap: var(--gap-8xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inknut-antiqua);
+}
+.frame-g-child {
+  height: 191px;
+  width: 373px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.cash-transactions-time,
+.main-officer-transport,
+.recess-1400-to,
+.tel-079-25323517 {
+  margin: 0;
+}
+.main-officer-transport-container {
+  height: 156px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-g {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-11xs) 29px 0;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inknut-antiqua);
+}
+.information {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 113px var(--padding-3xl) 94px 25px;
+  box-sizing: border-box;
+  gap: var(--gap-24xl);
+}

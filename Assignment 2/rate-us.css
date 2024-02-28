@@ -1,0 +1,119 @@
+.frame-container-child {
+  width: 430px;
+  height: 323px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.rate-this-app {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.tell-others-what {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  z-index: 1;
+}
+.rate-text,
+.star-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.star-group {
+  align-self: stretch;
+  flex-direction: row;
+}
+.star-individuals-icon {
+  width: 70px;
+  height: 73px;
+  position: relative;
+  z-index: 1;
+}
+.star-frame-set {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+}
+.star-frame-set-child {
+  width: 70px;
+  height: 73px;
+  position: relative;
+  z-index: 1;
+}
+.star-frame-set1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.star-frame-set2,
+.star-frame-set3,
+.star-frame-set4 {
+  height: 73px;
+  width: 70px;
+  position: relative;
+  min-height: 73px;
+  z-index: 1;
+}
+.star-button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.span {
+  font-size: var(--font-size-17xl);
+}
+.write-a-review-container {
+  height: 44px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-container,
+.frame-with-stars {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-with-stars {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-5xl);
+}
+.frame-container {
+  flex: 1;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gainsboro);
+  align-items: center;
+  padding: 26px 35px var(--padding-12xl) 36px;
+  gap: 62px;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.rate-us1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 218px 0 391px;
+  box-sizing: border-box;
+}

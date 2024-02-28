@@ -1,0 +1,173 @@
+.frame-inner {
+  height: 39px;
+  width: 430px;
+  position: relative;
+  background-color: var(--color-indianred);
+  display: none;
+}
+.term-and-condition1 {
+  height: 29px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangle-container {
+  align-self: stretch;
+  background-color: var(--color-indianred);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) 21px var(--padding-8xs) var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.students-concession-scheme {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.students-concession-scheme-container {
+  width: 420px;
+  height: 29px;
+  position: relative;
+  display: inline-block;
+  padding-right: var(--padding-xl);
+}
+.frame-div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.and-for-girls,
+.term-pass- {
+  margin: 0;
+}
+.term-pass-container {
+  height: 58px;
+  position: relative;
+  display: inline-block;
+}
+.any-bus-any,
+.certificate-of-theirinstitute,
+.get-a-concession,
+.government-recognized-and,
+.granted-schools-colleges,
+.p,
+.producingthe-identification,
+.rs400-children-between,
+.student-can-use,
+.the-concession-charge,
+.the-students-studying,
+.vocational-training-institute,
+.years-are-charged {
+  margin: 0;
+}
+.the-students-studying-container {
+  align-self: stretch;
+  position: relative;
+}
+.pass-rates-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.frame-group,
+.pass-rates-frame-wrapper {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.pass-rates-frame-wrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 16px 0 var(--padding-xs);
+}
+.frame-group {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.free-one-year {
+  margin-bottom: 0;
+}
+.free-one-year-passtill-313 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.for-the-blind {
+  margin: 0;
+}
+.free-one-year-container {
+  flex: 1;
+  position: relative;
+}
+.concession-text {
+  width: 369px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.amts-buses,
+.blind-person-for,
+.blind-school-can,
+.civil-surgeon-rmo,
+.for-100-blindness,
+.general-hospital-or,
+.that-janmitra-card {
+  margin: 0;
+}
+.civil-surgeon-rmo-container {
+  align-self: stretch;
+  height: 203px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.free-year-frame,
+.term-and-condition {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.free-year-frame {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 11px;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.term-and-condition {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: center;
+  padding: 50px 0 var(--padding-32xl);
+  box-sizing: border-box;
+  gap: var(--gap-8xl);
+}
